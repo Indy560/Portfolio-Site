@@ -1,0 +1,17 @@
+
+/*CSS code used for classes .row-centered and .col-centered from "Bootstrap 3 responsive centered collums" Published 3/3/2014
+by Riccardo Caroli http://www.minimit.com/articles/solutions-tutorials/bootstrap-3-responsive-centered-columns */
+body { 
+	font-family: 'Julius Sans One', sans-serif;/*font style and color settings*/
+	color: blue;
+	margin: 0;
+}
+.row-centered{/*centering collum styles in a row as viewport changes*/
+	text-align: center;
+}
+.col-centered{/*centering collums within a row as the viewport changes*/
+	display: inline-block;
+	float: none;
+	text-align: left; /* reset the text-align*/
+	margin-right: -4px;/*inline-block space fix*/
+}
